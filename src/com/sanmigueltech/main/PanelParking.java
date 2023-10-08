@@ -175,13 +175,13 @@ public static void main(String args[]) {
 
     java.awt.EventQueue.invokeLater(new Runnable() {
         public void run() {
-            PanelParking mainFrame = new PanelParking();
+            PanelParking FrameMain = new PanelParking();
             
           
             // Configura el JFrame para que se abra en pantalla completa
-            mainFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
+            FrameMain.setExtendedState(JFrame.MAXIMIZED_BOTH);
             
-            mainFrame.setVisible(true);
+            FrameMain.setVisible(true);
         }
     });
 }
