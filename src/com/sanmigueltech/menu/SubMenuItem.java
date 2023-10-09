@@ -1,8 +1,9 @@
 package com.sanmigueltech.menu;
 
-import com.sanmigueltech.form.ingresarClienteJframe;
+
 import com.sanmigueltech.form.ingresarClientePanel;
 import com.sanmigueltech.form.ingresarClientePanel1;
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -34,7 +35,9 @@ public class SubMenuItem extends JButton {
                 JPanel panelToShow = null;
                 switch (text) {
                     case "Registro de entrada":
+                        System.out.println("Boton presionado!");
                         panelToShow = new ingresarClientePanel();
+                        
                         break;
                     // Puedes agregar más casos si tienes más botones
                 }
@@ -42,8 +45,9 @@ public class SubMenuItem extends JButton {
                 if (panelToShow != null) {
                     MainForm main = MainForm.getInstance();
                     if (main != null) {
+                        main.setLayout(new BorderLayout());
                         main.removeAll();  // Limpia el contenido actual de mainForm
-                        main.add(panelToShow);
+                        main.add(panelToShow, BorderLayout.CENTER);
                         main.revalidate();
                         main.repaint();
                     } else {
@@ -55,14 +59,14 @@ public class SubMenuItem extends JButton {
         });
     }
 
-private void initStyle() {
-    setBackground(new Color(7, 40, 33));
-    setForeground(Color.WHITE);
-    Font currentFont = getFont();
-    float newSize = currentFont.getSize() + 4f;  // Aumenta el tamaño en 10 puntos
-    setFont(currentFont.deriveFont(newSize));
+    private void initStyle() {
+        setBackground(new Color(7, 40, 33));
+        setForeground(Color.WHITE);
+        Font currentFont = getFont();
+        float newSize = currentFont.getSize() + 4f;  // Aumenta el tamaño en 10 puntos
+        setFont(currentFont.deriveFont(newSize));
 
-}
+    }
 
     @Override
     public void updateUI() {
