@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Component;
 import javax.swing.JPanel;
 
+
 public class MainForm extends JPanel {
 
     public static MainForm main;
