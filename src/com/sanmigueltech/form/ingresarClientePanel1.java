@@ -51,7 +51,7 @@ public class ingresarClientePanel1 extends javax.swing.JPanel {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jLabel1.setText("Centrado1");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 90, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 110, -1, -1));
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -66,13 +66,13 @@ public class ingresarClientePanel1 extends javax.swing.JPanel {
         ));
         jScrollPane2.setViewportView(jTable2);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, 123));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 180, -1, 123));
 
         jButton2.setText("jButton2");
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 300, 295, 41));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 320, 295, 41));
 
         jTextField3.setText("jTextField3");
-        add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 360, 138, -1));
+        add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 380, 138, -1));
     }// </editor-fold>//GEN-END:initComponents
 
 
