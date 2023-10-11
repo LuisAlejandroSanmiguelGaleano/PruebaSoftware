@@ -67,7 +67,7 @@ public class ingresarClientePanel extends javax.swing.JPanel {
             .addGroup(norteLayout.createSequentialGroup()
                 .addGap(416, 416, 416)
                 .addComponent(jLabel1)
-                .addContainerGap(470, Short.MAX_VALUE))
+                .addContainerGap(496, Short.MAX_VALUE))
         );
         norteLayout.setVerticalGroup(
             norteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -105,7 +105,7 @@ public class ingresarClientePanel extends javax.swing.JPanel {
                 .addComponent(jButton5)
                 .addGap(29, 29, 29)
                 .addComponent(jButton6)
-                .addContainerGap(291, Short.MAX_VALUE))
+                .addContainerGap(270, Short.MAX_VALUE))
         );
 
         jPanel1.add(izquierda, java.awt.BorderLayout.LINE_START);
@@ -132,7 +132,7 @@ public class ingresarClientePanel extends javax.swing.JPanel {
                 .addComponent(jButton2)
                 .addGap(83, 83, 83)
                 .addComponent(jButton3)
-                .addContainerGap(292, Short.MAX_VALUE))
+                .addContainerGap(271, Short.MAX_VALUE))
         );
 
         jPanel1.add(derecha, java.awt.BorderLayout.LINE_END);
@@ -146,7 +146,7 @@ public class ingresarClientePanel extends javax.swing.JPanel {
             .addGroup(surLayout.createSequentialGroup()
                 .addGap(134, 134, 134)
                 .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 756, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(142, Short.MAX_VALUE))
+                .addContainerGap(168, Short.MAX_VALUE))
         );
         surLayout.setVerticalGroup(
             surLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -208,7 +208,7 @@ public class ingresarClientePanel extends javax.swing.JPanel {
                         .addComponent(jRadioButton3)
                         .addGap(53, 53, 53)
                         .addComponent(jRadioButton4)))
-                .addContainerGap(116, Short.MAX_VALUE))
+                .addContainerGap(142, Short.MAX_VALUE))
         );
         centroLayout.setVerticalGroup(
             centroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -225,7 +225,7 @@ public class ingresarClientePanel extends javax.swing.JPanel {
                     .addComponent(jRadioButton2)
                     .addComponent(jRadioButton3)
                     .addComponent(jRadioButton4))
-                .addContainerGap(86, Short.MAX_VALUE))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
 
         jPanel1.add(centro, java.awt.BorderLayout.CENTER);
