@@ -4,23 +4,20 @@
  */
 package com.sanmigueltech.form;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
 
 
 /**
  *
  * @author aleja
  */
+
+
 public class ingresarClientePanel extends javax.swing.JPanel {
 
-    /**
-     * Creates new form ingresarClientePanel
-     */
     public ingresarClientePanel() {
         initComponents();
-        
-    } 
+    }
+
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -31,104 +28,233 @@ public class ingresarClientePanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        norte = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        izquierda = new javax.swing.JPanel();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        derecha = new javax.swing.JPanel();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        sur = new javax.swing.JPanel();
+        jTextField2 = new javax.swing.JTextField();
+        centro = new javax.swing.JPanel();
         jTextField1 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
-        jTextField2 = new javax.swing.JTextField();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
         jRadioButton1 = new javax.swing.JRadioButton();
         jRadioButton2 = new javax.swing.JRadioButton();
+        jRadioButton3 = new javax.swing.JRadioButton();
+        jRadioButton4 = new javax.swing.JRadioButton();
 
+        setBackground(new java.awt.Color(255, 51, 51));
+        setForeground(new java.awt.Color(255, 102, 102));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setLayout(new java.awt.BorderLayout());
+
+        jPanel1.setLayout(new java.awt.BorderLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jLabel1.setText("Centrado");
 
-        jLabel2.setText("Centrado");
+        javax.swing.GroupLayout norteLayout = new javax.swing.GroupLayout(norte);
+        norte.setLayout(norteLayout);
+        norteLayout.setHorizontalGroup(
+            norteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(norteLayout.createSequentialGroup()
+                .addGap(416, 416, 416)
+                .addComponent(jLabel1)
+                .addContainerGap(496, Short.MAX_VALUE))
+        );
+        norteLayout.setVerticalGroup(
+            norteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(norteLayout.createSequentialGroup()
+                .addGap(5, 5, 5)
+                .addComponent(jLabel1))
+        );
 
-        jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
+        jPanel1.add(norte, java.awt.BorderLayout.PAGE_START);
+
+        jButton4.setText("jButton4");
+
+        jButton5.setText("jButton5");
+
+        jButton6.setText("jButton6");
+
+        javax.swing.GroupLayout izquierdaLayout = new javax.swing.GroupLayout(izquierda);
+        izquierda.setLayout(izquierdaLayout);
+        izquierdaLayout.setHorizontalGroup(
+            izquierdaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(izquierdaLayout.createSequentialGroup()
+                .addContainerGap(19, Short.MAX_VALUE)
+                .addGroup(izquierdaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton4, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton5, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton6, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addContainerGap())
+        );
+        izquierdaLayout.setVerticalGroup(
+            izquierdaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(izquierdaLayout.createSequentialGroup()
+                .addGap(59, 59, 59)
+                .addComponent(jButton4)
+                .addGap(27, 27, 27)
+                .addComponent(jButton5)
+                .addGap(29, 29, 29)
+                .addComponent(jButton6)
+                .addContainerGap(270, Short.MAX_VALUE))
+        );
+
+        jPanel1.add(izquierda, java.awt.BorderLayout.LINE_START);
+
+        jButton2.setText("jButton2");
+
+        jButton3.setText("jButton3");
+
+        javax.swing.GroupLayout derechaLayout = new javax.swing.GroupLayout(derecha);
+        derecha.setLayout(derechaLayout);
+        derechaLayout.setHorizontalGroup(
+            derechaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(derechaLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(derechaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton2)
+                    .addComponent(jButton3))
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+        derechaLayout.setVerticalGroup(
+            derechaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(derechaLayout.createSequentialGroup()
+                .addGap(54, 54, 54)
+                .addComponent(jButton2)
+                .addGap(83, 83, 83)
+                .addComponent(jButton3)
+                .addContainerGap(271, Short.MAX_VALUE))
+        );
+
+        jPanel1.add(derecha, java.awt.BorderLayout.LINE_END);
+
+        jTextField2.setText("jTextField2");
+
+        javax.swing.GroupLayout surLayout = new javax.swing.GroupLayout(sur);
+        sur.setLayout(surLayout);
+        surLayout.setHorizontalGroup(
+            surLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(surLayout.createSequentialGroup()
+                .addGap(134, 134, 134)
+                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 756, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(168, Short.MAX_VALUE))
+        );
+        surLayout.setVerticalGroup(
+            surLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, surLayout.createSequentialGroup()
+                .addContainerGap(33, Short.MAX_VALUE)
+                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27))
+        );
+
+        jPanel1.add(sur, java.awt.BorderLayout.PAGE_END);
+
+        jTextField1.setText("jTextField1");
 
         jButton1.setText("jButton1");
 
-        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
             }
-        });
+        ));
+        jScrollPane1.setViewportView(jTable1);
 
         jRadioButton1.setText("jRadioButton1");
 
         jRadioButton2.setText("jRadioButton2");
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(399, 399, 399)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(72, 72, 72)
-                        .addComponent(jLabel2))
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
+        jRadioButton3.setText("jRadioButton3");
+
+        jRadioButton4.setText("jRadioButton4");
+
+        javax.swing.GroupLayout centroLayout = new javax.swing.GroupLayout(centro);
+        centro.setLayout(centroLayout);
+        centroLayout.setHorizontalGroup(
+            centroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(centroLayout.createSequentialGroup()
+                .addGroup(centroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(centroLayout.createSequentialGroup()
+                        .addGap(315, 315, 315)
+                        .addGroup(centroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(centroLayout.createSequentialGroup()
+                                .addGap(39, 39, 39)
+                                .addComponent(jButton1))))
+                    .addGroup(centroLayout.createSequentialGroup()
+                        .addGap(108, 108, 108)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 546, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(centroLayout.createSequentialGroup()
+                        .addGap(88, 88, 88)
                         .addComponent(jRadioButton1)
-                        .addGap(20, 20, 20)
-                        .addComponent(jRadioButton2))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(70, 70, 70)
-                        .addComponent(jButton1)))
-                .addContainerGap(417, Short.MAX_VALUE))
+                        .addGap(122, 122, 122)
+                        .addComponent(jRadioButton2)
+                        .addGap(61, 61, 61)
+                        .addComponent(jRadioButton3)
+                        .addGap(53, 53, 53)
+                        .addComponent(jRadioButton4)))
+                .addContainerGap(142, Short.MAX_VALUE))
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(62, 62, 62)
-                .addComponent(jLabel1)
-                .addGap(47, 47, 47)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addComponent(jLabel2)
-                .addGap(76, 76, 76)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(52, 52, 52)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2))
+        centroLayout.setVerticalGroup(
+            centroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(centroLayout.createSequentialGroup()
                 .addGap(49, 49, 49)
+                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addComponent(jButton1)
-                .addContainerGap(106, Short.MAX_VALUE))
+                .addGap(26, 26, 26)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(centroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jRadioButton1)
+                    .addComponent(jRadioButton2)
+                    .addComponent(jRadioButton3)
+                    .addComponent(jRadioButton4))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
+
+        jPanel1.add(centro, java.awt.BorderLayout.CENTER);
+
+        add(jPanel1, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel centro;
+    private javax.swing.JPanel derecha;
+    private javax.swing.JPanel izquierda;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JRadioButton jRadioButton3;
+    private javax.swing.JRadioButton jRadioButton4;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JPanel norte;
+    private javax.swing.JPanel sur;
     // End of variables declaration//GEN-END:variables
 }

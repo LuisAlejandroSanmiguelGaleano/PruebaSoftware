@@ -35,10 +35,15 @@ public class SubMenuItem extends JButton {
                 JPanel panelToShow = null;
                 switch (text) {
                     case "Registro de entrada":
-                        System.out.println("Boton presionado!");
+                        System.out.println("Boton presionado! 1");
                         panelToShow = new ingresarClientePanel();
+                        break; 
                         
+                    case "Registro de salida":
+                        System.out.println("Boton presionado! 2");
+                        panelToShow = new ingresarClientePanel1();
                         break;
+                        
                     // Puedes agregar más casos si tienes más botones
                 }
 

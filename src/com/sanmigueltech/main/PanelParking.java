@@ -178,8 +178,14 @@ public static void main(String args[]) {
             PanelParking FrameMain = new PanelParking();
             
           
-            // Configura el JFrame para que se abra en pantalla completa
-            FrameMain.setExtendedState(JFrame.MAXIMIZED_BOTH);
+            // Establecer el tamaño específico para el JFrame
+            FrameMain.setSize(1330 ,1039);
+
+            // Centrar el JFrame en la pantalla
+            FrameMain.setLocationRelativeTo(null);
+            
+            // Bloquear el redimensionamiento de la ventana
+            FrameMain.setResizable(false);
             
             FrameMain.setVisible(true);
         }
